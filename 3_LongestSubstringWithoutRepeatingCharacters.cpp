@@ -5,8 +5,8 @@
 #include<algorithm>
 using namespace std;
 
-//������ظ��ַ����Ӵ�����
-//ʹ�û������ڵķ�ʽ�����������������Ӵ������ж������Ӵ��Ƿ����ظ��ַ��ᳬʱ����
+//求最长无重复字符的子串长度
+//使用滑动窗口的方式（若暴力遍历所有子串，并判断所有子串是否有重复字符会超时）。
 class Solution
 {
 public:

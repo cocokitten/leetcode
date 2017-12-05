@@ -18,8 +18,8 @@ public:
 		int c = 0;
 		string s;
 		while (a_len >= 0 && b_len >= 0) {
-			c = ((a[a_len] - '0') + (b[b_len] - '0') + p) % 2;     //µ±Ç°Î»µÄÖµ
-			p = ((a[a_len] - '0') + (b[b_len] - '0') + p) / 2;     //½øÎ»
+			c = ((a[a_len] - '0') + (b[b_len] - '0') + p) % 2;     //å½“å‰ä½çš„å€¼
+			p = ((a[a_len] - '0') + (b[b_len] - '0') + p) / 2;     //è¿›ä½
 			s.insert(0, to_string(c));
 			a_len--;
 			b_len--;

@@ -40,8 +40,6 @@ int main() {
 
 	Solution sol;
 	cout<<sol.singleNumber(nums)<<endl;
-
-	system("pause");
 	return 0;
 
 }

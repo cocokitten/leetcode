@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+#define INT_MAX 2147483647
+#define INT_MIN -2147483648
 /*需考虑如下问题：
 1、开头的空格
 2、正负符号的处理
